@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <properties>
         <!-- Make sure you point to the latest in-house version: https://automatest.jfrog.io/artifactory/SHAFT_ENGINE/io/github/mohabmohie/SHAFT_ENGINE/ -->
+             <!-- adding comment to change the file and create a PR -->
         <shaft_engine.version>5.3.20210930</shaft_engine.version>
     </properties>
     <repositories>
