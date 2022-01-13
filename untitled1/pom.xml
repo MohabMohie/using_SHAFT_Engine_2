@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <properties>
         <!-- Make sure you point to the latest in-house version: https://automatest.jfrog.io/artifactory/SHAFT_ENGINE/io/github/mohabmohie/SHAFT_ENGINE/ -->
-        <shaft_engine.version>5.3.20210930</shaft_engine.version>
+        <shaft_engine.version>6.1.20220113</shaft_engine.version>
     </properties>
     <repositories>
         <repository>
@@ -50,7 +50,7 @@
                     <dependency>
                         <groupId>org.aspectj</groupId>
                         <artifactId>aspectjweaver</artifactId>
-                        <version>1.9.8.RC1</version>
+                        <version>1.9.7</version>
                     </dependency>
                 </dependencies>
                 <configuration>
@@ -59,7 +59,7 @@
                     <encoding>UTF-8</encoding>
                     <argLine>
                         -Dtestng.dtd.http=true
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.8.RC1/aspectjweaver-1.9.8.RC1.jar"
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar"
                     </argLine>
                     <properties>
                         <property>
